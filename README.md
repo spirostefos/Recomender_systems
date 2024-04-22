@@ -1,10 +1,9 @@
 ## Introduction
 In this project, we aim to develop and optimize two distinct recommender system models: one based on neighborhood methods and the other on matrix factorization. Our primary objective is to enhance recommendation quality by meticulously tuning hyperparameters. We rigorously evaluate the performance of these models against a baseline model to measure their effectiveness.
 
-## Phase 1: Exploratory Data Analysis (EDA) and Dataset Preparation
+## Dataset
 We begin by loading essential modules and libraries, followed by an in-depth Exploratory Data Analysis (EDA) of the dataset 'MovieLens-Ratings.csv'. The EDA process involves extracting insights using charts and plots. To manage the dataset's size, we employ stratification sampling to extract a representative sample. This sample undergoes a similar EDA process, enabling a comparative analysis with the original data.
 
-## Dataset
 The dataset used in this project is the MovieLens dataset, which can be obtained from the [GroupLens website](https://grouplens.org/datasets/movielens/). Make sure to download the dataset and place it in the `Recomender_system/` directory before running the code.
 
 ## File Structure 
