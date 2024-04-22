@@ -7,6 +7,13 @@ We begin by loading essential modules and libraries, followed by an in-depth Exp
 ## Dataset
 The dataset used in this project is the MovieLens dataset, which can be obtained from the [GroupLens website](https://grouplens.org/datasets/movielens/). Make sure to download the dataset and place it in the `Recomender_system/` directory before running the code.
 
+## File Structure 
+- `MovieLens-Ratings.npy`: Excel file with all the ratings.
+- `README.md`: This file providing an overview of the project.
+- `requirements.txt`: Text file listing all the required dependencies for the project.
+- `main.npy`: Main file to run.
+
+
 ## Dataset Overview
 - **Number of Users:** 283,228
 - **Number of Movies:** 53,889
@@ -38,8 +45,12 @@ After evaluating the performance of the three models, we conclude that SVD++ out
 - SciPy
 - Scikit-learn
 
-## Setup Instructions
-1. Clone the repository to your local machine: `git clone https://github.com/your-username/recommender-system.git`
+## Usage
+1. Clone the repository to your local machine: `git clone https://github.com/spirostefos/recommender-system.git`
 2. Navigate to the project directory: `cd recommender-system`
 3. Install the required dependencies: `pip install -r requirements.txt`
 4. Run the main script to execute the project: `python main.py`
+5. Execute the code cells in your preferred environment, ensuring the dataset is accessible.
+6. Follow the provided code comments for each step, including data preprocessing, model training, evaluation, and visualization.
+7. Experiment with different hyperparameters, architectures, and optimization techniques as described in the code.
+8. Utilize the provided evaluation functions to assess the performance of the models, including ROC curves, classification reports, confusion matrices, etc.
